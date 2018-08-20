@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".ui.inspect.plain.OffDevicesActivity" >
+
+    <item
+        android:id="@+id/action_inspect_commit"
+        android:orderInCategory="80"
+        android:title="@string/inspect_commit"
+        app:showAsAction="always"/>
+
+</menu>

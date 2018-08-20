@@ -1,0 +1,73 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.wf.wisdom_safety.ui.mainmenu.MainActivity">
+    <com.wf.wisdom_safety.view.CustomViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:background="@color/Aliceblue"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:context=""
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal" >
+        <com.wf.util.ChangeColorIconWithTextView
+            android:id="@+id/id_indicator_one"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            app:icon1="@drawable/icon_home_un"
+            app:icon_checked="@drawable/icon_home"
+            app:text="@string/monitor"
+            app:text_size="16sp" />
+
+        <com.wf.util.ChangeColorIconWithTextView
+            android:id="@+id/id_indicator_two"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            app:icon1="@drawable/icon_challenge_un"
+            app:icon_checked="@drawable/icon_challenge"
+            app:text="@string/inspect"
+            app:text_size="16sp" />
+
+        <com.wf.util.ChangeColorIconWithTextView
+            android:id="@+id/id_indicator_three"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            app:icon1="@drawable/icon_homework_un"
+            app:icon_checked="@drawable/icon_homework"
+            app:text="@string/work"
+            app:text_size="16sp" />
+
+        <com.wf.util.ChangeColorIconWithTextView
+            android:id="@+id/id_indicator_four"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            app:icon1="@drawable/icon_my_un"
+            app:icon_checked="@drawable/icon_my"
+            app:text="@string/my"
+            app:text_size="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

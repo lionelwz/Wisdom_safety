@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 圆角 -->
+    <corners
+        android:radius="20dp"
+        />
+
+    <padding
+        android:left="2dp"
+        android:right="2dp"/>
+
+    <!-- 大小 -->
+    <size
+        android:width="10dp"
+        android:height="10dp"/><!-- 宽度和高度 -->
+
+    <!-- 填充 -->
+    <solid
+        android:color="@android:color/holo_red_light"/><!-- 填充的颜色 -->
+
+</shape>

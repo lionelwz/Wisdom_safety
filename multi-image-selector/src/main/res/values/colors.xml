@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mis_actionbar_color">#21282C</color>
+    <color name="mis_gray">#ddd</color>
+    <color name="mis_blue">#3394EC</color>
+
+    <color name="mis_color1">#fff</color>
+    <color name="mis_color2">#f00</color>
+    <color name="mis_color3">#FECD52</color>
+    <color name="mis_color4">#145CB9</color>
+    <color name="mis_color5">#21AE58</color>
+    <color name="mis_video_gray">#AADDDDDD</color>
+</resources>

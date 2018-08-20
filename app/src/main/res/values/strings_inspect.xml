@@ -1,0 +1,81 @@
+<resources>
+    <string name="inspect_title">安全巡检</string>
+    <string name="inspect_plain_title">巡检计划</string>
+    <string name="inspect_danger_title">安全隐患</string>
+    <string name="inspect_fault_title">非设备报修</string>
+    <string name="inspect_record_title">巡检记录</string>
+    <string name="inspect_device_collect_title">设备汇总</string>
+    <string name="inspect_building_title">巡检点</string>
+
+    <!--巡检计划相关-->
+    <string name="inspect_plain_time_task">分时任务</string>
+    <string name="inspect_plain_day_task">日常任务</string>
+    <string name="inspect_plain_week_task">每周任务</string>
+    <string name="inspect_plain_month_task">每月任务</string>
+
+    <string name="inspect_plain_task_name">任务名称：</string>
+    <string name="inspect_plain_building_name">巡检点：</string>
+    <string name="inspect_plain_excuter">执行人员：</string>
+    <string name="inspect_plain_task_type">任务类型：</string>
+    <string name="inspect_plain_task_cycle">执行周期：</string>
+    <string name="inspect_plain_end_tiem">结束时间：</string>
+    <string name="inspect_plain_excute_status">执行状态：</string>
+
+    <string name="inspect_plain_offdevice">设备详情</string>
+
+    <string name="inspect_plain_qrcode">开始巡检</string>
+    <string name="inspect_plain_scan">巡检</string>
+    <string name="inspect_plain_scene_image">现场图片：</string>
+    <string name="inspect_plain_scene_video">现场视频：</string>
+    <string name="inspect_plain_upload_image">上传图片</string>
+
+    <!--安全隐患相关-->
+    <string name="inspect_danger_month">本月上报</string>
+    <string name="inspect_danger_nodeal">未处理</string>
+    <string name="inspect_danger_month_deal">本月处理</string>
+    <string name="inspect_danger_address">隐患地址：</string>
+    <string name="inspect_danger_description">隐患描述：</string>
+    <string name="inspect_danger_time">上报时间：</string>
+    <string name="inspect_danger_status">处理状态：</string>
+
+    <!--非设备报修相关-->
+    <string name="inspect_fault_month">本月报修</string>
+    <string name="inspect_fault_nodeal">未修复</string>
+    <string name="inspect_fault_month_deal">本月修复</string>
+    <string name="inspect_fault_address">故障地址：</string>
+    <string name="inspect_fault_description">故障描述：</string>
+    <string name="inspect_fault_time">上报时间：</string>
+    <string name="inspect_fault_status">处理状态：</string>
+
+    <!--巡检点相关-->
+    <string name="inspect_building_count">总数：</string>
+    <string name="inspect_building_name">巡检点名称：</string>
+    <string name="inspect_building_floor">编号：</string>
+    <string name="inspect_building_device_count">设备总数：</string>
+
+    <!--设备相关-->
+    <string name="inspect_device_name">设备名称：</string>
+    <string name="inspect_device_type">设备类型：</string>
+    <string name="inspect_device_building">巡检点：</string>
+    <string name="inspect_device_floor">所在楼层：</string>
+
+    <!--巡检记录相关-->
+    <string name="inspect_record_day">今日</string>
+    <string name="inspect_record_week">本周</string>
+    <string name="inspect_record_month">本月</string>
+    <string name="inspect_record_excute_time">执行时间：</string>
+    <string name="inspect_record_excute_plain">执行计划：</string>
+    <string name="inspect_record_normal_device">正常设备：</string>
+    <string name="inspect_record_fault_device">故障设备：</string>
+    <string name="inspect_record_broken_device">损坏设备：</string>
+    <string name="inspect_record_nocheck_device">未检设备：</string>
+
+    <!--设备汇总-->
+    <string name="inspect_device_collect_total">总数</string>
+    <string name="inspect_device_collect_normal">正常</string>
+    <string name="inspect_device_collect_fault">故障</string>
+    <string name="inspect_device_collect_breakdown">异常</string>
+
+    <string name="inspect_commit">提交检查结果</string>
+    <string name="inspect_commit_fail">提交检查结果失败</string>
+</resources>

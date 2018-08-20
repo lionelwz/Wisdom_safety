@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">智慧安全</string>
+
+    <!-- Strings related to login -->
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="copyright">©Copyright 山西物峰</string>
+    <string name="about">关于</string>
+    <string name="clear_cache">清空缓存</string>
+    <string name="LinearLayoutManager">android.support.v7.widget.LinearLayoutManager</string>
+    <string name="GridLayoutManager">android.support.v7.widget.GridLayoutManager</string>
+    <string name="about_info">固话:0351—5647119\n传真：0351—5647119\n@Copyright:2017\n山西物峰网络科技有限公司\n版权所有\n备案号：晋ICP备17005995号</string>
+    <string name="alert">提示</string>
+    <string name="cancel">取消</string>
+
+    <string name="faild_to_get_data">获取数据失败</string>
+    <string name="nothing_data">暂无数据</string>
+    <string name="error_tip">获取数据异常</string>
+
+    <string name="gridLayoutManager">android.support.v7.widget.GridLayoutManager</string>
+
+    <string name="permission_request_denied">需要相应的权限</string>
+</resources>

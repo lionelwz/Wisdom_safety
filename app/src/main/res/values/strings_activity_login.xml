@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Strings related to login -->
+    <string name="user_name">输入账号</string>
+    <string name="password">密码</string>
+    <string name="prompt_email">请输入用户名</string>
+    <string name="prompt_password">请输入密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="forgot_password">忘记密码？</string>
+    <string name="action_sign_in_short">Sign in</string>
+
+    <string name="error_invalid_email">请输入正确的手机号</string>
+    <string name="error_invalid_password">密码由字母或数字组成，长度在6-16</string>
+    <string name="error_incorrect_password">密码错误</string>
+    <string name="error_field_required">账号或密码不能为空</string>
+    <string name="login_failed">登录失败</string>
+</resources>

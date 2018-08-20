@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <!-- 圆角 -->
+    <corners
+        android:radius="10dp"
+        />
+
+    <padding
+        android:left="2dp"
+        android:right="2dp"/>
+
+    <!-- 大小 -->
+    <size
+        android:width="10dp"
+        android:height="10dp"/><!-- 宽度和高度 -->
+
+    <!-- 填充 -->
+    <solid
+        android:color="@color/white"/><!-- 填充的颜色 -->
+
+</shape>

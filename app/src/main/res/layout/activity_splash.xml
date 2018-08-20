@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<me.dreamheart.autoscalinglayout.ASRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:designHeight="1150px"
+    app:designWidth="768px"
+    tools:context=".ui.SplashActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_launch_bg"/>
+
+        <LinearLayout
+            android:id="@+id/welcome_icon_ll"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="156px"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <ImageView
+                android:layout_width="600px"
+                android:layout_height="120px"
+                android:layout_marginTop="150px"
+                android:src="@drawable/ic_tag"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:gravity="bottom|center_horizontal"
+            android:orientation="vertical"
+
+            android:paddingBottom="10px">
+
+            <ImageView
+                android:id="@+id/welcome_logo_iv_dest"
+                android:layout_width="420px"
+                android:layout_height="120px"
+                android:layout_marginBottom="60px"
+                android:src="@drawable/ic_safety_plash"/>
+
+            <TextView
+                android:id="@+id/tvCopyRight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/copyright"
+                android:textColor="@color/blue_thinner"
+                android:textSize="20px"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+    </FrameLayout>
+</me.dreamheart.autoscalinglayout.ASRelativeLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="register">注册</string>
+    <string name="phone">手机号</string>
+    <string name="account">账号</string>
+    <string name="get_code">获取验证码</string>
+    <string name="verification_code">验证码</string>
+    <string name="password_hint">密码，6-16个字符</string>
+    <string name="new_password_hint">新密码，6-16个字符</string>
+    <string name="repeat_password">再次输入密码</string>
+    <string name="phone_input_error">请输入正确手机号</string>
+    <string name="next">下一步</string>
+    <string name="confirm">确认</string>
+    <string name="name">姓名</string>
+    <string name="logout">退出登录</string>
+    <string name="feed_back">意见反馈</string>
+    <string name="change_password">修改密码</string>
+    <string name="register_failed">注册失败！</string>
+    <string name="cache_cleared">缓存已清空</string>
+    <string name="old_password_hint">旧密码</string>
+</resources>

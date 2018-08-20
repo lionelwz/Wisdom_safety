@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout_view"
+    android:layout_width="120dp"
+    android:layout_height="120dp">
+    <ImageView
+        android:id="@+id/selected_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/default_error"/>
+    <ImageView
+        android:id="@+id/delete_image"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        tools:visibility="visible"
+        android:visibility="gone"
+        android:layout_gravity="left|top"
+        android:src="@mipmap/icon_delete"/>
+</FrameLayout>
